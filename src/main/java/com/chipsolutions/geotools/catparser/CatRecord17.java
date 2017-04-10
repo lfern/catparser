@@ -11,24 +11,24 @@ package com.chipsolutions.geotools.catparser;
  */
 public class CatRecord17 extends CatRecord{
     //Identificacion Subparcela
-    String isCodigoDelegacionMeh ;
-    String isCodigoMunicipio ;
-    String isNaturalizaSueloCultivo ;
-    String isParcelaCatastral ;
-    String isCodigoSubparcela ;
+    public String isCodigoDelegacionMeh ;
+    public String isCodigoMunicipio ;
+    public String isNaturalizaSueloCultivo ;
+    public String isParcelaCatastral ;
+    public String isCodigoSubparcela ;
 
-    String iaNumeroOrdenInmuebleFiscal ;
-
-    String dfeTipoSubparcela ;
-    String dfeSuperficiaSubparcela ;
-    String dfeCalificacionCatastralClaseCultivo ;
-    String dfeDenominacionClaseCultivo ;
-    String dfeIntensidadProductiva ;
-    String dfeCodigoModalidadReparto ;
     
     //Información adicional
+    public String iaNumeroOrdenInmuebleFiscal ;
+
     
     //Datos físicos y económicos
+    public String dfeTipoSubparcela ;
+    public String dfeSuperficiaSubparcela ;
+    public String dfeCalificacionCatastralClaseCultivo ;
+    public String dfeDenominacionClaseCultivo ;
+    public String dfeIntensidadProductiva ;
+    public String dfeCodigoModalidadReparto ;
     
     public CatRecord17(){
         isCodigoDelegacionMeh = "";

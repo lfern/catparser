@@ -11,14 +11,14 @@ package com.chipsolutions.geotools.catparser;
  */
 public class CatRecord16 extends CatRecord{
     //Identificación del elemento a repartir
-    String ieCodigoDelegacionMeh ;
-    String ieCodigoMunicipio ;
-    String ieParcelaCatastral ;
-    String ieNumeroOrdenElementoReparto ;
-    String ieCalificacionCatastralSubparcela ;
+    public String ieCodigoDelegacionMeh ;
+    public String ieCodigoMunicipio ;
+    public String ieParcelaCatastral ;
+    public String ieNumeroOrdenElementoReparto ;
+    public String ieCalificacionCatastralSubparcela ;
 
     //Bloque que se repetirá  hasta 15 veces
-    String brBloqueRepetitivo15 ;
+    public String brBloqueRepetitivo15 ;
     
     
     public CatRecord16(){

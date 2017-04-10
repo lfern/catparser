@@ -11,57 +11,57 @@ package com.chipsolutions.geotools.catparser;
  */
 public class CatRecord15 extends CatRecord{
     // Identificación del Bien Inmueble
-    String ibiCodigoDelegacionMeh ;
-    String ibiCodigoMunicipio ;
-    String ibiClaseBienInmueble ;
-    String ibiParcelaCatastral ;
-    String ibiNumeroSecuencialInmuebleDentroParcela ;
-    String ibiPrimerCaracterControl ;
-    String ibiSegundoCaracterControl ;
+    public String ibiCodigoDelegacionMeh ;
+    public String ibiCodigoMunicipio ;
+    public String ibiClaseBienInmueble ;
+    public String ibiParcelaCatastral ;
+    public String ibiNumeroSecuencialInmuebleDentroParcela ;
+    public String ibiPrimerCaracterControl ;
+    public String ibiSegundoCaracterControl ;
 
     // Identificadores Adicionales
-    String iaNumeroFijoInmueble ;
-    String iaCampoIdentificacionInmuebleAyto ;
-    String iaNumeroFincaRegistral ;
+    public String iaNumeroFijoInmueble ;
+    public String iaCampoIdentificacionInmuebleAyto ;
+    public String iaNumeroFincaRegistral ;
 
     //Domicilio Tributario/Localización del bien inmueble
-    String dtCodigoProvincia ;
-    String dtNombreProvincia ;
-    String dtCodigoMunicipio ;
-    String dtCodigoMunicipioIne ;
-    String dtNombreMunicipio ;
-    String dtNombreEntidadMenor ;
-    String dtCodigoViaPublica ;
-    String dtTipoViaOSigla ;
-    String dtNombreVia ;
-    String dtPrimeraNumeroPolicia ;
-    String dtPrimeraLetra ;
-    String dtSegundoNumeroPolicia ;
-    String dtSegundaLetra ;
-    String dtKilometro ;
-    String dtBloque ;
-    String dtEscalera ;
-    String dtPlanta ;
-    String dtPuerta ;
-    String dtTextDireccionNoEstructurada ;
-    String dtCodigoPostal ;
-    String dtDistritoMunicipal ;
-    String dtCodigoMunicipioOrigenAgregacion ;
-    String dtCodigoZonaConcentracion ;
-    String dtCodigoPoligono ;
-    String dtCodigoParcela ;
-    String dtCodigoParaje ;
-    String dtNombreParaje ;
+    public String dtCodigoProvincia ;
+    public String dtNombreProvincia ;
+    public String dtCodigoMunicipio ;
+    public String dtCodigoMunicipioIne ;
+    public String dtNombreMunicipio ;
+    public String dtNombreEntidadMenor ;
+    public String dtCodigoViaPublica ;
+    public String dtTipoViaOSigla ;
+    public String dtNombreVia ;
+    public String dtPrimeraNumeroPolicia ;
+    public String dtPrimeraLetra ;
+    public String dtSegundoNumeroPolicia ;
+    public String dtSegundaLetra ;
+    public String dtKilometro ;
+    public String dtBloque ;
+    public String dtEscalera ;
+    public String dtPlanta ;
+    public String dtPuerta ;
+    public String dtTextDireccionNoEstructurada ;
+    public String dtCodigoPostal ;
+    public String dtDistritoMunicipal ;
+    public String dtCodigoMunicipioOrigenAgregacion ;
+    public String dtCodigoZonaConcentracion ;
+    public String dtCodigoPoligono ;
+    public String dtCodigoParcela ;
+    public String dtCodigoParaje ;
+    public String dtNombreParaje ;
 
     //Información adicional
-    String iaNumeroOrdenInmuebleEscrituraDivisionHorizontal ;
-    String iaAnyoAntiguedadInmueble ;
+    public String iaNumeroOrdenInmuebleEscrituraDivisionHorizontal ;
+    public String iaAnyoAntiguedadInmueble ;
 
     //Datos económicos del inmueble
-    String deClaveGrupoInmueblesCaracEspeciales ;
-    String deSuperficiaElementosConstructivosAsociados ;
-    String deSuperficiaAsociada ;
-    String deCoeficientePropiedad ;
+    public String deClaveGrupoInmueblesCaracEspeciales ;
+    public String deSuperficiaElementosConstructivosAsociados ;
+    public String deSuperficiaAsociada ;
+    public String deCoeficientePropiedad ;
     
     public CatRecord15(){
         ibiCodigoDelegacionMeh = "";

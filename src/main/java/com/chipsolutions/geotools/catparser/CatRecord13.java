@@ -11,37 +11,37 @@ package com.chipsolutions.geotools.catparser;
  */
 public class CatRecord13 extends CatRecord{
     //Identificación del elemento
-    String ieCodigoDelegacionMeh ;
-    String ieCodigoMunicipio ;
-    String ieUnidadConstructiva ;
-    String ieParcelaCatastral ;
-    String ieCodigoUnidadConstructiva ;
+    public String ieCodigoDelegacionMeh ;
+    public String ieCodigoMunicipio ;
+    public String ieUnidadConstructiva ;
+    public String ieParcelaCatastral ;
+    public String ieCodigoUnidadConstructiva ;
 
     //Domicilio Tributario/localización de la Unidad Constructiva
-    String dtCodigoProvincia ;
-    String dtNombreProvincia ;
-    String dtCodigoMunicipio ;
-    String dtCodigoMunicipioIne ;
-    String dtNombreMunicipio ;
-    String dtnombreEntidadMenor ;
-    String dtCodigoVia ;
-    String dtTipoVia ;
-    String dtNombreVia ;
-    String dtprimerNumeroPolicia ;
-    String dtPrimeraLetra ;
-    String dtSegundoNumeroPolicia ;
-    String dtSegundaLetra ;
-    String dtKilometro ;
-    String dtTextoDireccionNoEstructurada ;
+    public String dtCodigoProvincia ;
+    public String dtNombreProvincia ;
+    public String dtCodigoMunicipio ;
+    public String dtCodigoMunicipioIne ;
+    public String dtNombreMunicipio ;
+    public String dtnombreEntidadMenor ;
+    public String dtCodigoVia ;
+    public String dtTipoVia ;
+    public String dtNombreVia ;
+    public String dtprimerNumeroPolicia ;
+    public String dtPrimeraLetra ;
+    public String dtSegundoNumeroPolicia ;
+    public String dtSegundaLetra ;
+    public String dtKilometro ;
+    public String dtTextoDireccionNoEstructurada ;
 
     //Datos físicos
-    String dfAnyoConstruccion ;
-    String dtIndicadosExactitudAnyoConstruccion ;
-    String dtSuperficieOcupada ;
-    String dfLongitudFachada ;
+    public String dfAnyoConstruccion ;
+    public String dtIndicadosExactitudAnyoConstruccion ;
+    public String dtSuperficieOcupada ;
+    public String dfLongitudFachada ;
 
     //Datos físicos 2
-    String dfCodigoUnidadConstructivaMatriz ;
+    public String dfCodigoUnidadConstructivaMatriz ;
     
     public CatRecord13(){
         ieCodigoDelegacionMeh = "";

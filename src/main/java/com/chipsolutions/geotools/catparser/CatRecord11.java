@@ -11,46 +11,46 @@ package com.chipsolutions.geotools.catparser;
  */
 public class CatRecord11 extends CatRecord{
     //Identificación de la parcela catastral 
-    String ipcCodigoDelegacionMeh;
-    String ipcCodigoMunicipio;
-    String ipcInmueblesEspeciales;
-    String ipcParcelaCatastral;
+    public String ipcCodigoDelegacionMeh;
+    public String ipcCodigoMunicipio;
+    public String ipcInmueblesEspeciales;
+    public String ipcParcelaCatastral;
     //Domicilio Tributario/ Localización de la parcela 
-    String dtCodigoProvincia;
-    String dtNombreProvincia;
-    String dtCodigoMunicipio;
-    String dtCodigoMunicipioIne;
-    String dtNombreMunicipio;
-    String dtNombreEntidadMenor;
-    String dtCodigoViaPublica;
-    String dtTipoVia;
-    String dtNombreVia;
-    String dtPrimerNumeroPolicia;
-    String dtPrimeraLetra;
-    String dtSegundoNumeroPolicia;
-    String dtSegundaLetra;
-    String dtKilometro;
-    String dtBloque;
-    String dtTextoDireccionNoEstructurada ;
-    String dtCodigoPostal ;
-    String dtDistritoMunicipal ;
-    String dtCodigoMunicipioAgregacion ;
-    String dtCodigoZonaConcentracion ;
-    String dtCodigoPoligono ;
-    String dtCodigoParcela ;
-    String dtCodigoParaje ;
-    String dtNombreParaje ;
+    public String dtCodigoProvincia;
+    public String dtNombreProvincia;
+    public String dtCodigoMunicipio;
+    public String dtCodigoMunicipioIne;
+    public String dtNombreMunicipio;
+    public String dtNombreEntidadMenor;
+    public String dtCodigoViaPublica;
+    public String dtTipoVia;
+    public String dtNombreVia;
+    public String dtPrimerNumeroPolicia;
+    public String dtPrimeraLetra;
+    public String dtSegundoNumeroPolicia;
+    public String dtSegundaLetra;
+    public String dtKilometro;
+    public String dtBloque;
+    public String dtTextoDireccionNoEstructurada ;
+    public String dtCodigoPostal ;
+    public String dtDistritoMunicipal ;
+    public String dtCodigoMunicipioAgregacion ;
+    public String dtCodigoZonaConcentracion ;
+    public String dtCodigoPoligono ;
+    public String dtCodigoParcela ;
+    public String dtCodigoParaje ;
+    public String dtNombreParaje ;
     //Datos Físicos 
-    String dfSuperficieCatastral ;
-    String dfSuperficieConstruidaTotal ;
-    String dfSuperficiaConstruidaRasante ;
-    String dfSuperficieCubierta ;
-    String dfX ;
-    String dfY ;
+    public String dfSuperficieCatastral ;
+    public String dfSuperficieConstruidaTotal ;
+    public String dfSuperficiaConstruidaRasante ;
+    public String dfSuperficieCubierta ;
+    public String dfX ;
+    public String dfY ;
     //Referencia BICE 
-    String rbReferenciaCatastralBice ;
-    String rbDenominacoinBice ;
-    String rbHuso ;
+    public String rbReferenciaCatastralBice ;
+    public String rbDenominacoinBice ;
+    public String rbHuso ;
     
     public CatRecord11(){
         ipcCodigoDelegacionMeh = "";

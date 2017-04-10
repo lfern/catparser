@@ -10,12 +10,12 @@ package com.chipsolutions.geotools.catparser;
  * @author luis
  */
 public class CatRecord90 extends CatRecord{
-    int totalR11;
-    int totalR13;
-    int totalR14 ;
-    int totalR15 ;
-    int totalR16 ;
-    int totalR17 ;
+    public int totalR11;
+    public int totalR13;
+    public int totalR14 ;
+    public int totalR15 ;
+    public int totalR16 ;
+    public int totalR17 ;
     
     public CatRecord90(){
         totalR11 = 0;

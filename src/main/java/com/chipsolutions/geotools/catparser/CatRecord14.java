@@ -11,34 +11,34 @@ package com.chipsolutions.geotools.catparser;
  */
 public class CatRecord14 extends CatRecord{
     // Identificación del elemento
-    String ieCodigoDelegacionMeh ;
-    String ieCodigoMunicipio ;
-    String ieParcelaCatastral ;
-    String ieNumeroOrdenElementoConstruccion ;
+    public String ieCodigoDelegacionMeh ;
+    public String ieCodigoMunicipio ;
+    public String ieParcelaCatastral ;
+    public String ieNumeroOrdenElementoConstruccion ;
 
     //Información adicional
-    String iaNumeroOrdenBianInmuebleFiscal ;
-    String iaCodigoUnidadConstructivaLocalAsociado ;
+    public String iaNumeroOrdenBianInmuebleFiscal ;
+    public String iaCodigoUnidadConstructivaLocalAsociado ;
 
     // Domicilio Tributario
-    String dtBloque ;
-    String dtEscalera ;
-    String dtPlanta ;
-    String dtPuerta ;
+    public String dtBloque ;
+    public String dtEscalera ;
+    public String dtPlanta ;
+    public String dtPuerta ;
 
     //Datos físicos
-    String dfCodigoDestinpDgc ;
-    String dfIndicadorTipoReformaRehabilitacion ;
-    String dfAnyoReforma ;
-    String dfAnyoAntiguedadEfectivaCatastro ;
-    String dfIndicadorLocalInterior ;
-    String dfSuperficieTotalLocalCatastro ;
-    String dfSuperficiePorchesTerrazas ;
-    String dfSuperficieImputableOtrasPlantas ;
+    public String dfCodigoDestinpDgc ;
+    public String dfIndicadorTipoReformaRehabilitacion ;
+    public String dfAnyoReforma ;
+    public String dfAnyoAntiguedadEfectivaCatastro ;
+    public String dfIndicadorLocalInterior ;
+    public String dfSuperficieTotalLocalCatastro ;
+    public String dfSuperficiePorchesTerrazas ;
+    public String dfSuperficieImputableOtrasPlantas ;
 
     //Datos Económicos
-    String deTipologiaConstructiva ;
-    String deCodigoModalidadReparto ;
+    public String deTipologiaConstructiva ;
+    public String deCodigoModalidadReparto ;
     
     public CatRecord14(){
         ieCodigoDelegacionMeh = "";
