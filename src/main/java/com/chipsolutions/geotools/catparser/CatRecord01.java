@@ -71,12 +71,12 @@ public class CatRecord01 extends CatRecord{
         dfDescFichero = line.substring(57,96);
         dfNombreFichero = line.substring(96,117);
         dfCodigoEntidadDestinataria = line.substring(117,120);
-        defAnyoInicioPeriodo = Short.parseShort(line.substring(120,124));
-        defMesInicioPeriodo = Short.parseShort(line.substring(124,126));
-        defDiaInicioPeriodo = Short.parseShort(line.substring(126,128));
-        defAnyoFinPeriodo = Short.parseShort(line.substring(128,132));
-        defMesFinPeriodo = Short.parseShort(line.substring(132,134));
-        defDiaFinPeriodo = Short.parseShort(line.substring(134,136));
+        defAnyoInicioPeriodo = parseShort(line.substring(120,124),(short)0);
+        defMesInicioPeriodo = parseShort(line.substring(124,126),(short)0);
+        defDiaInicioPeriodo = parseShort(line.substring(126,128),(short)0);
+        defAnyoFinPeriodo = parseShort(line.substring(128,132),(short)0);
+        defMesFinPeriodo = parseShort(line.substring(132,134),(short)0);
+        defDiaFinPeriodo = parseShort(line.substring(134,136),(short)0);
     }
     
 }

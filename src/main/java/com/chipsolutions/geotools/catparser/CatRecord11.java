@@ -110,9 +110,9 @@ public class CatRecord11 extends CatRecord{
         dtCodigoViaPublica = line.substring(153,158);
         dtTipoVia = line.substring(158,163);
         dtNombreVia = line.substring(163,188);
-        dtPrimerNumeroPolicia = line.substring(188,192);
+        dtPrimerNumeroPolicia = tryStringInteger(line.substring(188,192));
         dtPrimeraLetra = line.substring(192,193);
-        dtSegundoNumeroPolicia = line.substring(193,197);
+        dtSegundoNumeroPolicia = tryStringInteger(line.substring(193,197));
         dtSegundaLetra = line.substring(197,198);
         dtKilometro = line.substring(198,203); // 3enteros y 2decimales
         dtBloque = line.substring(203,207);
